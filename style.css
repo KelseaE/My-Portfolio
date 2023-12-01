@@ -3,23 +3,28 @@
 }
 
 body {
-    display: flex;
     background-image: url("images/background.jpg");
     background-size: cover;
 }
 
 header {
-    font-size: 50px;
+    font-size: 20px;
     color: rgb(206, 147, 21);
     align-self: center;
 }
 
-h1 {
-    color: rgb(133, 101, 20);
+h1, h2, h3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 1%;
+    padding: 10px;
+    box-sizing: 10px
 }
 
 nav {
     display: flex;
+    
 }
 
 nav a {
@@ -27,6 +32,7 @@ nav a {
     padding: 20px;
 }
 
-.img {
-    size: 30px
+.profileimg{
+    display: flex;
+    justify-items:flex-start
 }
