@@ -7,6 +7,13 @@ body {
     background-size: cover;
 }
 
+.header nav li {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    font-size: 20px;
+}
+
 header {
     font-size: 20px;
     color: rgb(206, 147, 21);
@@ -20,19 +27,4 @@ h1, h2, h3 {
     margin: 1%;
     padding: 10px;
     box-sizing: 10px
-}
-
-nav {
-    display: flex;
-    
-}
-
-nav a {
-    font-size: 20px;
-    padding: 20px;
-}
-
-.profileimg{
-    display: flex;
-    justify-items:flex-start
 }
