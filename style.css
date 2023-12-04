@@ -30,7 +30,7 @@ header {
     color: rgb(77, 21, 206);
 }
 
-h1, h2, h3 {
+h1 {
     display: flex;
     justify-content: center;
     position: relative;
@@ -39,27 +39,53 @@ h1, h2, h3 {
     box-sizing: 10px
 }
 
-.article-container{
+h3 {
+    position: absolute;
+    font-size: 60px;
+}
+
+h4 {
+    position: absolute;
+    font-size: 60px;
+    margin-top: 350px;
+}
+
+h5 {
+    position: absolute;
+    font-size: 60px;
+    margin-top: 600px;
+}
+
+.aboutme-container{
     position: absolute;
     display: inline-block;
     width: 75%;
     margin-left: 200px;
 }
 
-.article-img{
+.github-container{
+    position: absolute;
+    display: inline-block;
+    width: 75%;
+    margin-top: 250px;
+    margin-left: 300px;
+}
+
+.article-img{ 
     margin-right: 50px;
     padding-top: 20px;
     float: right;
     width: 75%;
     height:250px;
     position: relative;
-}
+} 
 
 .smaller-img{
     margin-right: 50px;
-    padding-top: 20px;
+    margin-left: 200px;
+    padding-top: 30px;
     float: right;
-    width: 350px;
+    width: 439px;
     height:250px;
     position: relative ;
 }
@@ -72,4 +98,27 @@ h1, h2, h3 {
     margin-left: 250px;
     color: blue;
     font-size: 30px;
+}
+
+.info{
+    position: absolute;
+    margin-top: 850px;
+    font-size: 50px;
+}
+
+h6 {
+    position: absolute;
+    margin-top: 1000px;
+    font-size: 60px;
+}
+
+.contactinfop{
+    position: absolute;
+    margin-top: 1070px;
+    margin-left: 400px;
+    font-size: 40px;
+}
+
+.project-img{
+    background-image: url(images/contact-info.jpg);
 }
