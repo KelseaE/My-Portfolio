@@ -26,7 +26,7 @@ nav {
 }
 
 header {
-    font-size: 20px;
+    font-size: 30px;
     color: rgb(77, 21, 206);
 }
 
@@ -39,8 +39,11 @@ h1, h2, h3 {
     box-sizing: 10px
 }
 
-.article{
-
+.article-container{
+    position: absolute;
+    display: inline-block;
+    width: 75%;
+    margin-left: 200px;
 }
 
 .article-img{
@@ -68,5 +71,5 @@ h1, h2, h3 {
     align-self: center;
     margin-left: 250px;
     color: blue;
-    font-size: 20px;
+    font-size: 30px;
 }
