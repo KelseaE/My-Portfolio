@@ -7,17 +7,27 @@ body {
     background-size: cover;
 }
 
-.header nav li {
+nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content:center;
+    justify-content: space-around;
     flex-direction: row;
     font-size: 20px;
+    margin: 40px;
+    padding-right: 20px;
+    border-bottom: 2px solid rgb(41, 15, 90);
+    border-top: 2px solid rgb(41, 15, 90);
+}
+
+.profile-img{
+    display: block;
+    margin: 10px auto;
+    max-width: 250px;
 }
 
 header {
     font-size: 20px;
-    color: rgb(206, 147, 21);
-    align-self: center;
+    color: rgb(77, 21, 206);
 }
 
 h1, h2, h3 {
@@ -27,4 +37,36 @@ h1, h2, h3 {
     margin: 1%;
     padding: 10px;
     box-sizing: 10px
+}
+
+.article{
+
+}
+
+.article-img{
+    margin-right: 50px;
+    padding-top: 20px;
+    float: right;
+    width: 75%;
+    height:250px;
+    position: relative;
+}
+
+.smaller-img{
+    margin-right: 50px;
+    padding-top: 20px;
+    float: right;
+    width: 350px;
+    height:250px;
+    position: relative ;
+}
+
+
+ p{
+    display: flex;
+    position: absolute;
+    align-self: center;
+    margin-left: 250px;
+    color: blue;
+    font-size: 20px;
 }
